@@ -4,7 +4,9 @@ This is a Project created to enhance web application development skills using ME
 
 Project started on 09-12-2022 (DD-MM-YYYY)
 
-Authors
-  Anjana Pasindu  
-  Ayoj Thiwanka   
-  Priyantha Fernando
+<ul>
+  <h3>Authors</h3>
+  <li> Anjana Pasindu </li>
+  <li> Ayoj Thiwanka </li>  
+  <li> Priyantha Fernando </li>
+</ul>
