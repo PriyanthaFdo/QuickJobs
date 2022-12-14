@@ -23,6 +23,10 @@ connection.once("open", () => {
 	console.log("MongoDB Connection Success!");
 });
 
+const serviceRouter = require("./routes/spRegister.js");
+app.use("/ServiceProviders", serviceRouter);
+
+
 app.listen(PORT, () => {
 	console.log(`Server is up and running on Port: ${PORT}`)
 });
