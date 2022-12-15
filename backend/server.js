@@ -26,6 +26,9 @@ connection.once("open", () => {
 const serviceRouter = require("./routes/spRegister.js");
 app.use("/ServiceProviders", serviceRouter);
 
+const customerRouter = require("./routes/customer.js");
+app.use("/Customer", customerRouter);
+
 
 app.listen(PORT, () => {
 	console.log(`Server is up and running on Port: ${PORT}`)
