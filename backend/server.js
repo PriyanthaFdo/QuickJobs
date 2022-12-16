@@ -23,6 +23,9 @@ connection.once("open", () => {
 	console.log("MongoDB Connection Success!");
 });
 
+const jobRouter = require("./routes/jobs.js");
+app.use("/job", jobRouter);
+
 app.listen(PORT, () => {
 	console.log(`Server is up and running on Port: ${PORT}`)
 });
